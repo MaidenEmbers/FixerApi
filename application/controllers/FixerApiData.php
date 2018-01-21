@@ -12,7 +12,7 @@ class FixerApiData extends CI_Controller {
 
     }
 
-	public function save_data()
+	public function save_data() //gets the data from fixer.io API and saves it to the database
 	{
 
 		$base = 'MXN';

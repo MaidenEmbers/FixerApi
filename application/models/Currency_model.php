@@ -55,7 +55,7 @@ class Currency_model extends CI_Model {
 		return $result;
 	}
 
-	public function get_by_curr($currency)  //bring the whole data from a certain currencie
+	public function get_by_curr($currency)  //bring the whole data from a certain currency
 	{
 		
 		$this->db->select('date,'.$currency);

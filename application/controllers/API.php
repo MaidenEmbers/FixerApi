@@ -74,7 +74,7 @@ class Api extends REST_Controller {
             exit;	
     }
 
-    public function by_currency_get(){  //get currency history by month
+    public function by_currency_get(){  //get currency history by currency
     		$currency = $this->input->get('currency');
 			$curr = $this->currency->get_by_curr($currency);
 
